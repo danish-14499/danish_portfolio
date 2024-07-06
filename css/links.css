@@ -1,0 +1,31 @@
+/* styles.css */
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    /* background-color: #333; */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+}
+
+.social-link:hover {
+   
+}
+
+.social-link i {
+    font-size: 20px;
+}

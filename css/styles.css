@@ -1,0 +1,75 @@
+/* *{
+  background-color: rgb(18, 13, 81);
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+  line-height: 1px;
+}
+.navbar{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: rgb(19, 62, 112);
+  
+}
+ .nav-color{
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: aliceblue;
+}
+
+.navbar-brand > .material-icons-outlined {
+  font-size: 40px;
+  
+}
+
+.about > .material-icons-outlined {
+  font-size: 50px;
+}
+
+.card > img {
+  height: 250px;
+}
+
+.testimonial > img {
+  height: 50px;
+  width: 50px;
+}
+
+#map {
+  height: 300px;
+}
+.home__social{
+  justify-self: center;
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.home__social-link{
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  transition: color .3s;
+}
+
+.home__social-link:hover{
+  color: var(--title-color);
+}
+.border_radius{
+  border-radius: 2rem;
+}
+.image-height{
+   height: 2rem;
+   width: 2rem;
+}
+.footer_color{
+  /* background-color: rgb(19, 62, 112); */
+
+}
