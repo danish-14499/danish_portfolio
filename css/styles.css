@@ -1,6 +1,6 @@
-/* *{
-  background-color: rgb(18, 13, 81);
-} */
+*{
+  /* overflow-x: hidden; */
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +17,7 @@ body {
   z-index: 1;
   top: 0;
   background-color: rgb(19, 62, 112);
+ 
   
 }
  .nav-color{
@@ -33,6 +34,9 @@ body {
 
 .about > .material-icons-outlined {
   font-size: 50px;
+}
+.margin_left{
+  margin-left: 2rem;
 }
 
 .card > img {
